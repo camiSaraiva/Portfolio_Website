@@ -252,12 +252,13 @@ section#companies {
 .companies__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
   align-items: center;
+  margin-right: -2.5rem;
 }
 
 #ed {
-  width: 15vw;
+  padding-top: 1rem;
+  width: 5vw;
 }
 
 /*SERVICES*/
@@ -663,6 +664,11 @@ footer {
 
   .companies_container span {
     padding: 1.5rem;
+  }
+
+  #ed {
+    padding-top: 1rem;
+    width: 9vw;
   }
 
   /*Services*/
