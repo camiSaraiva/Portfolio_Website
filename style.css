@@ -126,6 +126,10 @@ nav {
   position: fixed;
   z-index: 2;
 }
+.logo {
+  margin-top: 0.5rem;
+  width: 12vw;
+}
 
 /*Changing navBar color when scrolling*/
 .window-scroll {
@@ -279,8 +283,8 @@ section#services {
   color: var(--color-primary-variant);
 }
 
-.services__left h1 {
-  font-size: 7rem;
+.services__left h2 {
+  font-size: 2.2rem;
   font-weight: 600;
   color: var(--color-white);
 }
@@ -539,9 +543,10 @@ footer {
     width: 100%;
   }
 
-  .nav__logo h3 {
-    color: var(--color-white);
+  .logo {
+    margin-top: 0.5rem;
     margin-left: 2rem;
+    width: 20vw;
   }
 
   .nav__menu {
@@ -695,6 +700,14 @@ footer {
     width: auto;
   }
 
+  .vanilla-projs {
+    width: 40vw;
+  }
+  .onspot {
+    width: 40vw;
+    margin-left: -2.5vw;
+  }
+
   /*Testimonials*/
 
   .testimonials__container {
@@ -752,8 +765,10 @@ footer {
     font-size: 1.9rem;
   }
 
-  .nav__logo h3 {
-    margin-left: 4px;
+  .logo {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    width: 30vw;
   }
 
   /*Header*/
@@ -831,7 +846,14 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  /*Porfolio*/
+  .vanilla-projs {
+    width: 83.5vw;
+  }
+  .onspot {
+    width: 86.5vw;
+  }
+
+  /*Testimonial*/
 
   .testimonial {
     padding: 1rem;
