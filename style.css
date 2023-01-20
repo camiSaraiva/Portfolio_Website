@@ -254,15 +254,17 @@ section#companies {
   margin: 0;
 }
 .companies__container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  margin-right: -2.5rem;
+  align-content: space-evenly;
 }
 
 #ed {
   padding-top: 1rem;
-  width: 5vw;
+  width: 4vw;
 }
 
 /*SERVICES*/
@@ -667,13 +669,20 @@ footer {
 
   /*Companies*/
 
-  .companies_container span {
-    padding: 1.5rem;
+  .companies_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
   }
 
   #ed {
     padding-top: 1rem;
-    width: 9vw;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 8vw;
   }
 
   /*Services*/
@@ -815,13 +824,16 @@ footer {
   /*Companies*/
 
   .companies__container {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
   }
 
   .companies__container span {
-    height: 5rem;
-    display: grid;
-    place-items: center;
+    width: 4rem;
   }
 
   /*Services*/
